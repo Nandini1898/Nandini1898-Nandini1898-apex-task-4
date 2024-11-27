@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #a8e063, #56ab2f);
+    color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .product-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact input, .contact textarea, .contact button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .contact button {
+    background: #a8e063;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+  }
+
